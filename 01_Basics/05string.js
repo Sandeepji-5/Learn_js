@@ -5,7 +5,6 @@
 
 // console.log(`Hello My name is ${name} and my repo countn is ${repoCount}`)
 // const gameName =  new String('Sandeep')
-
 //  console.log(gameName[0]);
 //  console.log(gameName.__proto__);
 
@@ -20,8 +19,16 @@
 //  const anotherString = gameName.slice(0,4)
 //  console.log(anotherString);
 
+const newStringOne = "    sandeep   "
+console.log(newStringOne);
+console.log(newStringOne.trim());
 
+ const  url = "https://sandeep.com/sandeep   vishwakarma"
 
+//browser convert the space into -  %20 
+const url2 = "https://sandeep.com/sandeep%20%20vishwakarma"
+console.log(url2.replace('%20','__'));
 
+console.log(url.includes('sandeep'));
 
-
+console.log( );
