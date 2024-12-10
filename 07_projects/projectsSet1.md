@@ -35,7 +35,7 @@ buttons.forEach(function (button) {
 
 ```
 ## project 2
-```
+``` javascript
 const form = document.querySelector('form');
 
 form.addEventListener('submit', function (e) {
@@ -77,5 +77,27 @@ else{
   results.innerHTML = `<span>${BMI}  <br> You are ${msg}</span>`;
 }
 });
+
+```
+
+## Project 3
+
+```javascript
+const clock = document.getElementById('clock')
+//const clock = document.querySelector('#clock')
+// either use getElementByID or U can Use document.querySelector()   both will work;
+
+// let date = new Date();
+// console.log(date.toLocaleTimeString());
+
+setInterval(function(){
+  let date = new Date();
+  //console.log(date.toLocaleTimeString())
+  clock.innerHTML = date.toLocaleTimeString();
+
+  clock.style.color = 'black';
+  clock.style.fontFamily = "bold,Times New Roman, Times, serif";
+
+},1000);
 
 ```
