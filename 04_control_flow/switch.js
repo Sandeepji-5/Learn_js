@@ -56,6 +56,10 @@
 
 
 // Nullish coalescing Operator (??) : null undefined 
+//The Nullish Coalescing Operator (??) in JavaScript is used to provide a default value when the left-hand operand is 
+//null or undefined. It returns the right-hand operand if the left-hand operand is null or undefined, otherwise, it 
+//returns the left-hand operand.
+
 
 // let val1;
 // val1 = 5 ?? 10
